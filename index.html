@@ -1,1 +1,195 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Demo</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        header {
+            background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        #features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .feature {
+            background: #fff;
+            margin: 1rem;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature h3 {
+            margin-bottom: 1rem;
+            color: #007bff;
+        }
+
+        .feature p {
+            color: #333;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to GitHub Pages Demo</h1>
+    </header>
+
+    <section id="about">
+        <h2>About This Demo</h2>
+        <p>
+            This is a simple and elegant HTML template designed to showcase the features and capabilities of GitHub
+            Pages. It's fully responsive and looks great on all devices.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>Awesome Features</h2>
+        <div id="features">
+            <div class="feature">
+                <h3>Easy to Use</h3>
+                <p>
+                    GitHub Pages allows you to quickly and easily deploy your websites directly from your GitHub
+                    repository.
+                </p>
+            </div>
+            <div class="feature">
+                <h3>Responsive Design</h3>
+                <p>
+                    This template is fully responsive, ensuring your site looks great on all devices, from desktops to
+                    mobile phones.
+                </p>
+            </div>
+            <div class="feature">
+                <h3>Free Hosting</h3>
+                <p>
+                    Host your site for free with GitHub Pages, using your own domain or a GitHub.io domain.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>
+            Have any questions or need help? Feel free to reach out to us via GitHub or email.
+        </p>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2024 GitHub Pages Demo | Design by <a href="https://github.com/yourusername">Your Name</a>
+        </p>
+    </footer>
+</body>
+
+</html>
